@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "watch": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "serve": "nodemon"
   },
   "dependencies": {
     "axios": "^0.18.0",
